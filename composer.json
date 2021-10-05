@@ -1,0 +1,21 @@
+{
+    "name": "dreamteam/coollive-plugins",
+    "description": "Plugins for CoolLive website",
+    "autoload": {
+        "psr-4": {
+            "Dreamteam\\CoollivePlugins\\": "src/",
+            "Dreamteam\\CoollivePlugins\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yannlr37",
+            "email": "yannlarosa@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "9.5.5",
+        "ext-curl": "*",
+        "ext-json": "*"
+    }
+}
